@@ -2,27 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    /* font added */
-    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
-/* main img styling */
-main{
-    width: 1500px;
-    height: 700px;
-    
-    background-image: url(assets/home-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    border-radius: 35px;
-
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-}
 
 
 /* nav bar styling */
@@ -47,4 +28,35 @@ nav ul li a{
     font-optical-sizing: auto;
     font-weight: 550;
     font-size: 20px;
+}
+
+
+
+/* main img styling */
+main{
+    width: 1500px;
+    height: 700px;
+    
+    background-image: url(assets/home-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 35px;
+
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+main div h2{
+    width: 800px;
+    height: 600px;
+    color: #ffffff;
+    font-size: 120px;
+    
+    float: right;
+    margin-right: 60px;
+    text-align: right;
+    align-content: end;
 }
