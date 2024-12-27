@@ -2,19 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* font added */
+    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
 /* main img styling */
-main #home img{
-    width: 1480px;
+main{
+    width: 1500px;
     height: 700px;
     
-    display: block;
-    margin: auto;
-    margin-top: 14px;
-
-    /* margin-left: 20px;
-    margin-top: 14px; */
+    background-image: url(assets/home-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     border-radius: 35px;
+
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+/* nav bar styling */
+nav{
+    float: left;
+
+    margin-left: 45px;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+
+
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+
 }
