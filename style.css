@@ -1,4 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+main #home img{
+    width: 1300px;
+    height: 700px;
 }
