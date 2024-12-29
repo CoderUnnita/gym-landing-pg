@@ -235,28 +235,24 @@ nav ul li:nth-child(6) button{
 }
 
 #bada-box{
-    width: 80%;
-    height: 200px;
+    width: 60%;
+    height: 140px;
 
     margin-top: 40px;
     margin-left: 40px;
     
     float: left;
-    border-style: solid;
-    border-color: #ffffff;
 
     font-family: "Jost", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: 20px;
 
     display: flex;
-    gap: 30px;
+    gap: 10px;
     border-radius: 20px;
-    background-color: #a1ea93;
 }
 
 .chhotu{
+    width: auto;
     background-color: #ffffff;
     
     border-radius: 20px;
@@ -266,6 +262,24 @@ nav ul li:nth-child(6) button{
 }
 
 .chhotu i{
-    border-style: solid;
+    width: 36px;
+    height: 36px;
 
+    margin-top: 5px;
+    text-align: center;
+    align-content: center;
+
+    border-style: solid;
+    border-radius: 20px;
+
+    background-color: #f2f2f2;
+}
+
+.chhotu h2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.chhotu h6{
+    width: 80%;
 }
