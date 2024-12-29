@@ -57,6 +57,8 @@ nav ul li:nth-child(6) button{
     border-radius: 25px;
 }
 
+
+
 /* main styling */
 #home{
     width: 1500px;
@@ -104,6 +106,8 @@ nav ul li:nth-child(6) button{
     background-color: #a1ea93;
 }
 
+
+
 #down-arrow{
     width: 4%;
     height: 40px;
@@ -112,10 +116,12 @@ nav ul li:nth-child(6) button{
     position: relative;
 
     left: 700px;
+    margin-top: 14px;
 
-    color: #ffffff;
+    color: #000000;
     font-size: 30px;
 }
+
 
 
 #app{
@@ -128,7 +134,7 @@ nav ul li:nth-child(6) button{
 
     display: block;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 10px;
 
     border-radius: 35px;
     border-style: solid;
@@ -182,6 +188,8 @@ nav ul li:nth-child(6) button{
     border-radius: 20px;
     background-color: #a1ea93;
 }
+
+
 
 #offer{
     width: 1500px;
