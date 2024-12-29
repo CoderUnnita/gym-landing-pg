@@ -57,7 +57,7 @@ nav ul li:nth-child(6) button{
     border-radius: 25px;
 }
 
-/* main img styling */
+/* main styling */
 #home{
     width: 1500px;
     height: 650px;
@@ -114,4 +114,59 @@ nav ul li:nth-child(6) button{
 
     color: #ffffff;
     font-size: 30px;
+}
+
+
+#app{
+    width: 1500px;
+    height: 650px;
+
+    background-image: url(assets/offer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 35px;
+
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+
+
+#offer{
+    width: 1500px;
+    height: 650px;
+
+    background-image: url(assets/offer-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 35px;
+
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#offer h1{
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 65px;
+}
+
+#offer p{
+    width: 500px;
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 25px;
 }
