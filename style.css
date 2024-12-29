@@ -58,7 +58,7 @@ nav ul li:nth-child(6) button{
 }
 
 /* main img styling */
-main{
+#home{
     width: 1500px;
     height: 650px;
     
@@ -75,7 +75,7 @@ main{
     /* filter: drop-shadow(10px 10px 2px #787070); */
 }
 
-main div h2{
+#home div h2{
     width: 800px;
     height: 600px;
     color: #ffffff;
@@ -87,7 +87,7 @@ main div h2{
     align-content: space-around;
 }
 
-main div button{
+#home div button{
     margin-top: 500px;
     margin-left: 100px;
 
@@ -109,9 +109,8 @@ main div button{
 
     text-align: center;
     position: relative;
-     
+
     left: 700px;
-    bottom: 50px;
 
     color: #ffffff;
     font-size: 30px;
