@@ -100,6 +100,7 @@ nav ul li:nth-child(6) button{
     font-size: 20px;
 
     border-radius: 20px;
+    border-width: 3px;
     background-color: #a1ea93;
 }
 
@@ -119,22 +120,68 @@ nav ul li:nth-child(6) button{
 
 #app{
     width: 1500px;
-    height: 650px;
+    height: 570px;
 
-    background-image: url(assets/offer-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #ffffff;
 
     border-radius: 35px;
 
     display: block;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 60px;
+
+    border-radius: 35px;
+    border-style: solid;
 }
 
+#app h2{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 60px;
+}
 
+#app p{
+    width: 30%;
+    margin-left: 100px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+}
 
+#app div img{
+    float: right;
+
+    width: 40%;
+    height: 30%;
+
+    margin-top: -400px;
+    margin-right: 100px;
+
+    border-radius: 25px;
+    border-style: solid;
+
+    filter: drop-shadow(10px 10px 2px);
+}
+
+#app button{
+    width: 240px;
+    height: 40px;
+
+    margin-left: 160px;
+    margin-top: 20px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+
+    border-radius: 20px;
+    background-color: #a1ea93;
+}
 
 #offer{
     width: 1500px;
@@ -149,7 +196,7 @@ nav ul li:nth-child(6) button{
 
     display: block;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 #offer h1{
@@ -169,4 +216,36 @@ nav ul li:nth-child(6) button{
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: 25px;
+}
+
+#offer button{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 240px;
+    height: 40px;
+
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+
+    border-radius: 20px;
+    background-color: #a1ea93;
+}
+
+#bada-box{
+    width: 500px;
+    height: 500px;
+
+    float: right;
+    border-style: solid;
+    border-color: #ffffff;
+
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+
+    border-radius: 20px;
+    background-color: #a1ea93;
 }
