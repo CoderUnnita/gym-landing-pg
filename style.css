@@ -72,6 +72,7 @@ main{
     display: block;
     margin: auto;
     margin-top: 10px;
+    /* filter: drop-shadow(10px 10px 2px #787070); */
 }
 
 main div h2{
@@ -102,3 +103,16 @@ main div button{
     background-color: #a1ea93;
 }
 
+#down-arrow{
+    width: 4%;
+    height: 40px;
+
+    text-align: center;
+    position: relative;
+     
+    left: 700px;
+    bottom: 50px;
+
+    color: #ffffff;
+    font-size: 30px;
+}
