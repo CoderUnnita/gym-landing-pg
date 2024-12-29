@@ -30,7 +30,32 @@ nav ul li a{
     font-size: 20px;
 }
 
+nav ul li:nth-child(5){
+    margin-left: 220px;
+}
 
+nav ul li:nth-child(5) a{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+nav ul li:nth-child(6){
+    margin-left: 400px;
+}
+
+nav ul li:nth-child(6) button{
+    width: 200px;
+    height: 40px;
+
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+
+    text-align: center;
+
+    border-radius: 25px;
+}
 
 /* main img styling */
 main{
@@ -58,5 +83,5 @@ main div h2{
     float: right;
     margin-right: 60px;
     text-align: right;
-    align-content: end;
+    align-content: space-around;
 }
