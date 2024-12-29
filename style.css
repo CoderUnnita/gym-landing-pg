@@ -160,7 +160,7 @@ nav ul li:nth-child(6) button{
     height: 30%;
 
     margin-top: -400px;
-    margin-right: 100px;
+    margin-right: 120px;
 
     border-radius: 25px;
     border-style: solid;
@@ -185,7 +185,7 @@ nav ul li:nth-child(6) button{
 
 #offer{
     width: 1500px;
-    height: 650px;
+    height: 1000px;
 
     background-image: url(assets/offer-img.jpg);
     background-repeat: no-repeat;
@@ -219,11 +219,12 @@ nav ul li:nth-child(6) button{
 }
 
 #offer button{
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: -140px;
+    margin-right: 40px;
     width: 240px;
     height: 40px;
 
+    float: right;
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -234,10 +235,13 @@ nav ul li:nth-child(6) button{
 }
 
 #bada-box{
-    width: 500px;
-    height: 500px;
+    width: 80%;
+    height: 200px;
 
-    float: right;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+    float: left;
     border-style: solid;
     border-color: #ffffff;
 
@@ -246,6 +250,22 @@ nav ul li:nth-child(6) button{
     font-weight: 500;
     font-size: 20px;
 
+    display: flex;
+    gap: 30px;
     border-radius: 20px;
     background-color: #a1ea93;
+}
+
+.chhotu{
+    background-color: #ffffff;
+    
+    border-radius: 20px;
+    border-style: solid;
+
+    padding-left: 10px;
+}
+
+.chhotu i{
+    border-style: solid;
+
 }
