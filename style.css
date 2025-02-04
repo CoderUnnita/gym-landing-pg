@@ -1,67 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
 
 /* nav bar styling */
 nav{
     float: left;
-    margin-left: 45px;
+    width: 100%;
+
+    background-color: #f23636;
 }
 
 nav ul li{
     float: left;
     list-style: none;
 
-    padding-left: 36px;
-    padding-top: 24px;
+    padding-left: 2vw;
+    padding-top: 1vw;
 }
 
 nav ul li a{
     text-decoration: none;
     
     color: #000000;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 nav ul li:nth-child(5){
-    margin-left: 220px;
+    margin-left: 5vw;
 }
 
 nav ul li:nth-child(5) a{
-    color: #f2f2f2;
-    font-size: 30px;
+    color: #6c6861;
+    font-size: 4vw;
 }
 
 nav ul li:nth-child(6){
     margin-left: 400px;
 }
 
-nav ul li:nth-child(6) button{
-    width: 200px;
-    height: 40px;
+nav ul button{
+    width: 10vw;
+    height: 5vh;
 
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1vw;
 
     text-align: center;
 
-    border-radius: 25px;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-radius: 2vw;
+
+    float: left;
+    list-style: none;
+
+    margin-left: 24vw;
+    margin-top: 2vw;
 }
 
 
 
 /* main-home styling */
 #home{
-    width: 1500px;
-    height: 650px;
+    width: 90%;
     
     background-image: url(assets/home-img.jpg);
     background-repeat: no-repeat;
@@ -70,37 +86,36 @@ nav ul li:nth-child(6) button{
 
     border-radius: 35px;
 
-    display: block;
+    display: inline-block;
+
+    position: relative;
     margin: auto;
-    margin-top: 10px;
 }
 
-#home div h2{
-    width: 800px;
-    height: 600px;
+
+#home h2{
+    width: 45vw;
+    height: 32vw;
     color: #ffffff;
-    font-size: 120px;
+    font-size: 7vw;
     
     float: right;
-    margin-right: 60px;
     text-align: right;
-    align-content: space-around;
+
+    margin-top: 3vw;
 }
 
-#home div button{
-    margin-top: 500px;
-    margin-left: 100px;
+#home button{
+    width: 12vw;
+    height: 6vh;
 
-    width: 240px;
-    height: 40px;
-
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-size: 20px;
 
-    border-radius: 20px;
-    border-width: 3px;
+    border-radius: 2vw;
+    border-width: .1vw;
+    border-style: solid;
+    border-color: #ffffff;
     background-color: #a1ea93;
 }
 
