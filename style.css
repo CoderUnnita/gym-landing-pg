@@ -77,19 +77,16 @@ nav ul button{
 
 /* main-home styling */
 #home{
-    width: 90%;
+    width: 98vw;
+    height: 80vh;
     
     background-image: url(assets/home-img.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 
     border-radius: 35px;
-
-    display: inline-block;
-
-    position: relative;
     margin: auto;
+    margin-top: 1vw;
 }
 
 
@@ -104,22 +101,6 @@ nav ul button{
 
     margin-top: 3vw;
 }
-
-#home button{
-    width: 12vw;
-    height: 6vh;
-
-    font-weight: 500;
-    font-size: 20px;
-
-    border-radius: 2vw;
-    border-width: .1vw;
-    border-style: solid;
-    border-color: #ffffff;
-    background-color: #a1ea93;
-}
-
-
 
 #down-arrow{
     width: 4%;
@@ -152,20 +133,24 @@ nav ul button{
     justify-content: space-between;
 }
 
+#app div{
+    border-style: solid;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#leftie{
+    margin-left: 6vw;
+}
 
 #app h2{
     width: 30vw;
-    
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
 
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: 3.8em;
-
-    margin-left: 6vw;
 }
 
 #app p{
@@ -174,15 +159,35 @@ nav ul button{
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: 1em;
-    margin-left: 6vw;
+    border-style: solid;
     margin-top: 1vw;
 }
 
-#app div img{
-    width: 60%;
+#app button{
+    width: 14vw;
+    height: 6vh;
 
-    float: right;
-    margin-right: 6vw;
+    margin-left: 8vw;
+    margin-top: 1vw;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.2em;
+
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #a1ea93;
+}
+
+#app button:hover{
+    background-color: #000000;
+    color: #eaeaea;
+    filter: drop-shadow(10px 10px 2px #9e9b9b);
+}
+
+#app div img{
+    width: 40vw;
+    height: 60vh;
 
     border-radius: 25px;
     border-style: solid;
@@ -190,23 +195,26 @@ nav ul button{
     filter: drop-shadow(10px 10px 2px);
 }
 
+#rightie{
+    margin-right: 6vw;
+}
 
 
 /* main-offer styling */
 #offer{
-    width: 1500px;
-    height: 500px;
+    width: 98vw;
+    height: 80vh;
 
     background-image: url(assets/offer-img.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 
     border-radius: 35px;
 
     display: block;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 5vh;
 }
 
 #offer h1{
@@ -230,8 +238,6 @@ nav ul button{
 }
 
 #offer button{
-    margin-top: -140px;
-    margin-right: 40px;
     width: 240px;
     height: 40px;
 
@@ -300,26 +306,31 @@ nav ul button{
 
 /* main-trainer styling */
 #trainer-info{
-    width: 1500px;
-    height: 540px;
+    width: 98vw;
+    height: 80vh;
 
     background-color: #f2f2f2;
 
-    display: block;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 5vh;
 
     border-radius: 35px;
     border-style: solid;
     border-width: 1px;
 }
 
-#trainer-info h1{
-    width: 80%;
-    height: 100px;
+.headhi{
+    height: 8vw;
+    border-style: solid;
 
-    float: left;
-    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#trainer-info h1{
+    border-style: solid;
+    margin-left: 3vw;
 
     font-family: "Jost", serif;
     font-optical-sizing: auto;
@@ -332,46 +343,48 @@ nav ul button{
 }
 
 #trainer-info div button{
-    margin-top: -80px;
-    margin-right: 40px;
-    width: 240px;
-    height: 40px;
+    width: 12vw;
+    height: 6vh;
 
     float: right;
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.4rem;
 
+    margin-right: 3vw;
     border-radius: 20px;
     border-style: solid;
     background-color: #a1ea93;
 }
 
+#trainer-info div button:hover{
+    background-color: #000000;
+    color: #eaeaea;
+    filter: drop-shadow(10px 10px 2px #9e9b9b);
+}
+
 #train{
-    width: auto;
-    height: 420px;
-
-    margin-left: 40px;
+    height: 60vh;
+    width: 98vw;
     
-    float: left;
-
     font-family: "Jost", serif;
     font-optical-sizing: auto;
 
     display: flex;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
     border-radius: 20px;
+    border-style: solid;
 }
 
 #trainer1,#trainer2,#trainer3,#trainer4{
-    width: 330px;
+    width: 22vw;
     height: 400px;
 
     align-content: flex-end;
     padding-bottom: 20px;
-
-    float: left;
 
     color: #ffffff;
     
