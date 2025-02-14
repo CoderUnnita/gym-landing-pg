@@ -128,8 +128,7 @@ nav ul button{
     text-align: center;
     position: relative;
 
-    left: 720px;
-    margin-top: 14px;
+    margin: auto;
 
     color: #000000;
     font-size: 30px;
@@ -139,67 +138,56 @@ nav ul button{
 
 /* main-app styling */
 #app{
-    width: 1500px;
-    height: 570px;
+    width: 98vw;
+    height: 80vh;
 
-    background-color: #f2f2f2;
-
-    display: block;
+    background-color: #eaeaea;
     margin: auto;
-    margin-top: 10px;
 
     border-radius: 35px;
     border-style: solid;
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
 }
 
+
 #app h2{
-    width: 30%;
-    margin-top: 50px;
-    margin-left: 100px;
+    width: 30vw;
+    
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 3.8em;
+
+    margin-left: 6vw;
 }
 
 #app p{
-    width: 30%;
-    margin-left: 100px;
+    width: 30vw;
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1em;
+    margin-left: 6vw;
+    margin-top: 1vw;
 }
 
 #app div img{
+    width: 60%;
+
     float: right;
-
-    width: 40%;
-    height: 30%;
-
-    margin-top: -400px;
-    margin-right: 120px;
+    margin-right: 6vw;
 
     border-radius: 25px;
     border-style: solid;
 
     filter: drop-shadow(10px 10px 2px);
-}
-
-#app button{
-    width: 240px;
-    height: 40px;
-
-    margin-left: 160px;
-    margin-top: 20px;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: 20px;
-
-    border-radius: 20px;
-    border-style: solid;
-    background-color: #a1ea93;
 }
 
 
